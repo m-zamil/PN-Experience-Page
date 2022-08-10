@@ -7,19 +7,15 @@ window.onload = function () {
       dots: true,
       center: true,
       stagePadding: 0,
+      center: true,
       responsive: {
         0: {
-          items: 1,
-          stagePadding: 50,
+          items: 1.2,
+          stagePadding: 20,
         },
         960: {
           items: 3,
-          margin: 20,
-          stagePadding: 100,
-        },
-        1023: {
           margin: 30,
-          stagePadding: 120,
         },
       },
     });

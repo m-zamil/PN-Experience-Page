@@ -425,10 +425,10 @@ h3.section__title {
 .pricing .section__title {
   color: white;
   text-align: center;
-  margin: 0.8em 0 1.21em;
+  margin: 0.6em 0 1em;
 }
 .pricing__cards {
-  padding: 0 5%;
+  padding: 0 6%;
 }
 .pricing__card {
   border: 6px solid #00abc8;
@@ -469,7 +469,7 @@ h3.section__title {
 .pricing__card--price {
   color: var(--blue);
   font-weight: bold;
-  font-size: 75px;
+  font-size: 68px;
 }
 .pricing__card--unit {
   color: var(--blue);
@@ -561,6 +561,56 @@ h3.section__title {
 .addons__cta a.primary__btn {
   min-width: 180px;
   padding: 10px 30px;
+}
+/* --Relevant-- */
+.relevant {
+  margin: 48px 0;
+}
+.relevant .container {
+  max-width: 428px;
+  padding: 16px 0;
+}
+.relevant .section__title {
+  text-align: center;
+  margin-top: 0;
+}
+.topexp__card {
+  max-width: 300px;
+  border-radius: 24px;
+  margin: 15px 15px 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+  position: relative;
+}
+
+.topexp__card .topexp__card__img {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+.topexp__card__content {
+  padding: 16px 16px 20px;
+  margin-top: -3px;
+}
+.topexp__card__title {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto", cursive;
+  letter-spacing: 2px;
+  max-width: 250px;
+  margin: 0;
+  text-align: left;
+}
+.topexp__card__tag,
+.topexp__card__duration {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.topexp__card .topexp__card__tag img,
+.topexp__card .topexp__card__duration img {
+  width: 16px;
+  margin-right: 10px;
 }
 
 /* --Desktop styles-- */
@@ -905,5 +955,31 @@ h3.section__title {
   }
   .rewards.addons {
     background-position: calc(100% + 25px) -140px, -62px calc(100% + 125px);
+  }
+  /* --Relevant-- */
+  .relevant .container {
+    max-width: 980px;
+  }
+  .owl-carousel .owl-dots.disabled,
+  .owl-carousel .owl-nav.disabled {
+    display: block;
+  }
+  .topexp__card {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+  }
+  .topexp__card__content .topexp__card__title {
+    font-size: 18px;
+  }
+  .topexp__card .topexp__card__tag,
+  .topexp__card .topexp__card__duration {
+    font-size: 16px;
+    margin: 14px 0;
+  }
+  .topexp__card .topexp__card__tag img,
+  .topexp__card .topexp__card__duration img {
+    width: 18px;
+    margin-right: 14px;
   }
 }

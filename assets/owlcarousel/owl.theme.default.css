@@ -49,8 +49,8 @@
   zoom: 1;
 }
 .owl-theme .owl-dots .owl-dot span {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin: 4px;
   background: #d6d6d6;
   display: block;
@@ -65,7 +65,7 @@
   }
 }
 .owl-theme .owl-dots .owl-dot.active span {
-  background: var(--blue);
+  background: #869791;
 }
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
