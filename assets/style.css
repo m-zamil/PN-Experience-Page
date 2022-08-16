@@ -390,7 +390,13 @@ h3.section__title {
   letter-spacing: 2px;
 }
 .supplies__ctas {
-  margin: 48px 0 64px;
+  margin: 48px 0 0;
+  margin-right: -22px;
+  margin-left: -12px;
+}
+.supplies__ctas a.primary__btn{
+  padding: 8px 18px;
+  
 }
 /* --Pricing-- */
 .pricing {
@@ -400,6 +406,7 @@ h3.section__title {
   background-repeat: no-repeat;
   color: white;
   position: relative;
+  margin-top: 48px;
 }
 .pricing::after {
   content: "";
@@ -695,7 +702,7 @@ h3.section__title {
   }
   .ctas a.primary__btn {
     padding: 10px 30px;
-    min-width: 180px;
+    min-width: 200px;
   }
   .ctas a.primary__btn:first-child {
     margin-right: 16px;
@@ -807,11 +814,11 @@ h3.section__title {
   }
   /* --Supplies-- */
   .supplies {
-    background-image: url("./images/paint-dots.png"), url("./images/paintbrush.jpg");
-    background-size: 70px, 300px;
-    background-position: -20px 230px, right top;
+    background-image:  url("./images/paintbrush.jpg");
+    background-size: 300px;
+    background-position:  right 60px;
     margin-top: 0;
-    padding-top: 75px;
+    padding-top: 65px;
   }
   .supplies .section__title {
     text-align: center;
@@ -845,10 +852,10 @@ h3.section__title {
     display: none;
   }
   .difference__card {
-    padding: 28px 106px;
+    padding: 28px 96px;
     border-radius: 32px;
     background-color: var(--off-white);
-    max-width: 960px;
+    max-width: 940px;
     margin: 0 auto;
   }
   .difference__card h3 {
@@ -870,11 +877,17 @@ h3.section__title {
   }
   .supplies__ctas {
     text-align: center;
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .supplies__ctas a.primary__btn {
     min-width: 200px;
   }
   /* --Pricing-- */
+  .pricing{
+    margin-top: 96px;
+  }
   .pricing::after {
     opacity: 0.85;
   }
